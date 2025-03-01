@@ -19,7 +19,7 @@ let isGameStarted = false;
 let playerNo = 0;
 let roomID;
 
-const SOCKET_URL = "https://multiplayer-table-tennis-game.onrender.com";
+const SOCKET_URL = "https://multiplayer-pingpong.vercel.app/";
 
 const socket = io(SOCKET_URL || "http://localhost:3000", {
   transports: ["websocket"],
